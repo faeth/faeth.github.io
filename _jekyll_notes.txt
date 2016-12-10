@@ -1,0 +1,24 @@
+Post metada only works when you're iterating over posts, not from the page itself page template.
+
+
+You can make posts about projects in the _posts directory under the Projects folder. You could then add these to each of the project pages doing something like {{ for post in site.categories.projects.M4  }}.
+
+{{ post.image}}
+
+{% cycle {{page.title}}, {{page.image}} %}
+{% cycle {{page.title}}, {{page.image}} %}
+{% cycle {{page.title}}, {{page.image}} %}
+
+
+{% for post in site.categories.projects %}
+
+	<p>{{post.title}}</p>
+{% endfor %}
+
+
+
+## Install a local version of Jekyll (if the rake tests don't pass)
+cd /Users/adfaeth/dev/jekyll
+gem build jekyll.gemspec 
+sudo gem install /Users/adfaeth/dev/jekyll/jekyll-0.11.0.gem 
+

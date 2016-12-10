@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="/atom.xml" rel="alternate" title="RSS" type="application/atom+xml" />
+	<link rel="stylesheet" href="/css/sen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+	
+	<!-- create HTML5 structural elements for IE -->
+	<!--[if lt IE 9]> 
+	<style type="text/css">
+		/* thanks http://www.positioniseverything.net/easyclearing.html */
+		.clearfix {
+    		zoom: 1;     /* triggers hasLayout */
+    	}
+	</style>
+	<script type="text/javascript">
+		document.createElement("nav" ); 
+		document.createElement("header" ); 
+		document.createElement("footer" ); 
+		document.createElement("section" ); 
+		document.createElement("aside" ); 
+		document.createElement("article" );
+	</script> 
+	<![endif]-->
+	
+	<title>Adam Faeth:  {{ page.title }}</title>
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-27821280-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+
+
+<body>
+<header id="page_header" class="clearfix">
+	<nav >
+	<ul>
+		<li><a href="/">Projects</a></li>
+		<li><a href="/about.html">About</a></li>
+	</ul>
+	</nav>
+	<h1><a href="/">Adam Faeth</a></h1>
+</header>
+
+<div id="posts">
+ {{ content }}
+</div>
+
+<footer id="page_footer">
+Copyright 2016 Adam Faeth
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+html {
+/*	background-color: #cccccf;*/
+}
+
+body
+{
+	width:  700px;
+	margin: 15px auto 0px auto;
+	font-family: 'Myriad Pro', Helvetica, Verdana, sans-serif;
+	background-color: #fff;
+	padding: 10px;
+}
+
+header
+{
+	height: 6em;
+}
+
+.implied_link { 
+	text-decoration: none; 
+	color: #3e3e3e; 
+}
+
+figcaption { 
+	display: none; 
+	font-size: 1.25em;
+	margin-bottom:1.5em;
+}
+
+
+p { 
+	line-height: 20px; 
+	font-size: 1.25em;
+	margin:0 0 1.5em;
+}
+
+h2 {
+	font-size:1.75em;	
+  	margin:0 0 1em;
+}
+
+h1, h2, h3, h4 {
+	color: #656565;
+}
+
+h1 a, h2 a, h3 a {
+	color: #656565;
+	text-decoration:  none;
+}
+
+.dateline
+{
+	position: relative;
+	float: right;
+	margin-right: -140px;
+	color: #626262;
+	text-align: left;
+	width: 120px;
+}
+
+div#posts
+{
+	position: relative;
+	width: 540px;
+}
+
+div#posts aside
+{
+	position: relative;
+	float:right;
+	margin-right: -140px;
+	width: 120px;
+	font-size:0.8333em;
+	margin-bottom:1.8em;
+}
+
+nav
+{
+	float:right;
+	width: 140px;
+}
+
+article
+{
+	margin-bottom:  4em;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	font-size:1.1666em;
+	margin:0 0 1.286em;
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+nav ul li a {
+	text-decoration:  none;
+	color: #333;
+}
+
+nav ul li a:hover {
+	border-bottom:1px dotted #333;
+}
+
+
+footer#page_footer
+{
+	clear: both;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+caption, .caption{ 
+	margin-top: -20px; 
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}
+
+.left {
+	float: left;
+}
+
+/* clear columns without having to include a clearing div 
+ * thanks http://www.positioniseverything.net/easyclearing.html   */
+
+.clearfix: after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
